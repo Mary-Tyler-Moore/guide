@@ -170,7 +170,7 @@ class _TourListItemState extends State<_TourListItem> {
                   bottom: 8.0,
                 ),
                 child: Text(
-                  "Selfie Trail Walking Tour",
+                  widget.tour.name,
                   style: Theme.of(context)
                       .textTheme
                       .titleLarge!
