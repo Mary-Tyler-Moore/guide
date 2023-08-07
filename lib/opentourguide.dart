@@ -82,10 +82,8 @@ class _OpenTourGuideApp extends StatelessWidget {
 
   void _finishOnboarding(BuildContext context) {
     _markOnboarded();
-    final firstTour = (await TourIndex.load()).tours.first;
-    final tourModel = await firstTour.loadDetails();
-    Navigator.of(context)
-        .pushReplacement(MaterialPageRoute(builder: (context) => TourDetails (tourmodel)));
+     Navigator.of(context)
+        .pushReplacement(MaterialPageRoute(builder: (context) => const Home()));
   }
 }
 
