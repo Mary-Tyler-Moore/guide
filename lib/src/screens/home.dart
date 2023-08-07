@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Tours",
+                    "Walking Tour",
                     style: Theme.of(context).textTheme.titleLarge,
                   ),
                   const SizedBox(height: 4.0),
@@ -207,7 +207,7 @@ class _TourListItemState extends State<_TourListItem> {
                       color: Color.fromARGB(255, 160, 160, 160),
                     ),
                     Text(
-                      "Driving Tour",
+                      "Walking Tour",
                       style: Theme.of(context).textTheme.labelMedium!.copyWith(
                           color: const Color.fromARGB(255, 160, 160, 160)),
                     ),
@@ -218,7 +218,7 @@ class _TourListItemState extends State<_TourListItem> {
                       color: Color.fromARGB(255, 160, 160, 160),
                     ),
                     Text(
-                      "18 Stops",
+                      "20 Stops",
                       style: Theme.of(context).textTheme.labelMedium!.copyWith(
                           color: const Color.fromARGB(255, 160, 160, 160)),
                     ),
